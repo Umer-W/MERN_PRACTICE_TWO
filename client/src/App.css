@@ -1,0 +1,548 @@
+/* =======================================================================================================================
+=============================================     Navbar    ============================================================
+========================================================================================================================== */
+
+.App{
+  background-color: rgba(238, 238, 238, 0.815);
+  height: 700px;
+}
+
+.navbar-toggler{
+  background-color: black;
+  color: white;
+}
+.navbar-toggler-icon{
+  color: white;
+  text-align: center; 
+  font-size: larger;
+  padding: 0px;
+  padding-top: 5px;
+}
+.nav-link{
+  color: rgba(255, 255, 255, 0.89);
+  font-weight: 600;
+  font-size: large;
+  
+}
+
+
+
+
+.navbar-brand{
+  font-size: xx-large;
+  
+}
+@media only screen and (max-width: 400px) {
+
+  .heading{
+    font-size: 15px;
+  }
+}
+
+
+
+.nav-link:any-link{
+  color: rgba(255, 255, 255, 0.89);
+}
+.nav-link:hover{
+  color: rgba(240, 217, 16, 0.89);
+}
+.nav-brand:hover{
+  color:rgba(255, 255, 255, 0.89); 
+
+}
+
+.navbar{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+padding: 2%;
+
+}
+
+/* =======================================================================================================================
+=============================================     Sign UP     ============================================================
+========================================================================================================================== */
+
+@media only screen and (max-width: 3000px) and (min-width:1100px) {
+
+.form form{
+  border: 1px solid rgba(0, 0, 0, 0.651);
+  background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.911);
+
+  text-align: center;
+  margin:0% 22%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+padding: 2%;
+border-radius: 10px;
+
+}
+.form{
+  padding-top: 7%;
+
+}
+.signUp{
+  background: linear-gradient(210deg, #ffffffe5 50%, #ebdb4b 50%);
+  height:900px;
+}
+.formData{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+
+}
+.formInput .input{
+  background-color: rgba(36, 36, 39, 0.993);
+color: rgba(255, 255, 255, 0.801);
+border: none;
+margin-top: 6%;
+
+font-size: larger;
+border-bottom: 1px solid rgba(240, 217, 16, 0.89);
+width: 125%;
+font-weight: 500;
+
+}
+.input input{
+  background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.801);
+  border: none;
+  margin: 1.9%;
+  padding: 2%;
+  
+}
+.formInput input:current{
+  border: none;
+}
+.image{
+  padding: 0%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top:5%;
+}
+.image img{
+  border-radius: 10px;
+}
+.image .already{
+  text-decoration: none;
+  text-align: center;
+  margin-left: 30%;
+  padding-top: 10%;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: larger;
+  font-weight: 600;
+  
+}
+.formImage{
+  width: 60%;
+  margin: 0%;
+  padding: 0%;
+  margin-left: 35%;
+
+}
+.submitBtn{
+  padding: 1%;
+  border-radius: 10px;
+font-weight: 700;
+  font-size: x-large;
+
+}
+.submitBtn:hover{
+  background-color: rgba(255, 255, 255, 0.692);
+  transition: 0.4s;
+  transform: scale(1.04);
+}
+}
+
+/* **********************************************************************************************************************
+                                      **********************************************
+                                      **********************************************
+                                      ********************************************** */
+@media only screen and (max-width: 1100px) {
+
+  .form form{
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    background-color: rgba(36, 36, 39, 0.993);
+    color: rgba(255, 255, 255, 0.911);
+  
+    text-align: center;
+    margin:0% 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2%;
+  border-radius: 10px;
+  
+  }
+  .form{
+    padding-top: 7%;
+  
+  }
+  .signUp{
+    background: linear-gradient(210deg, #ffffffe5 50%, #ebdb4b 50%);
+    height:900px;
+  }
+  .formData{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+  }
+  .formInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .formInput .input{
+    background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.801);
+  border: none;
+  margin-top: 6%;
+  
+  font-size: larger;
+  border-bottom: 1px solid rgba(240, 217, 16, 0.89);
+  width: 140%;
+  font-weight: 500;
+  
+  }
+  .input input{
+    background-color: rgba(36, 36, 39, 0.993);
+    color: rgba(255, 255, 255, 0.801);
+    border: none;
+    margin: 1.9%;
+    padding: 2%;
+    
+  }
+  .formInput input:current{
+    border: none;
+  }
+ .image{
+  display: none;
+ }
+ 
+  
+  .submitBtn{
+    padding: 1%;
+    border-radius: 10px;
+  font-weight: 700;
+    font-size: x-large;
+  
+  }
+  .submitBtn:hover{
+    background-color: rgba(255, 255, 255, 0.692);
+    transition: 0.4s;
+    transform: scale(1.04);
+  }
+
+}
+
+
+/* **********************************************************************************************************************
+                                      **********************************************
+                                      **********************************************
+                                      ********************************************** */
+@media only screen and (max-width: 400px) {
+
+  .form form{
+    border: 1px solid rgba(0, 0, 0, 0.651);
+    background-color: rgba(36, 36, 39, 0.993);
+    color: rgba(255, 255, 255, 0.911);
+  
+    text-align: center;
+    margin:0% 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2%;
+  border-radius: 10px;
+  
+  }
+  .form{
+    padding-top: 7%;
+  
+  }
+  .signUp{
+    background: linear-gradient(210deg, #ffffffe5 50%, #ebdb4b 50%);
+    height:900px;
+  }
+  .formData{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+  }
+  .formInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .formInput .input{
+    background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.801);
+  border: none;
+  margin-top: 6%;
+  
+  font-size: larger;
+  border-bottom: 1px solid rgba(240, 217, 16, 0.89);
+  width: 110%;
+  font-weight: 500;
+  
+  }
+  .input input{
+    background-color: rgba(36, 36, 39, 0.993);
+    color: rgba(255, 255, 255, 0.801);
+    border: none;
+    margin: 1.9%;
+    padding: 2%;
+    
+  }
+  .formInput input:current{
+    border: none;
+  }
+ .image{
+  display: none;
+ }
+ 
+  
+  .submitBtn{
+    padding: 1%;
+    border-radius: 10px;
+  font-weight: 700;
+    font-size: x-large;
+  
+  }
+  .submitBtn:hover{
+    background-color: rgba(255, 255, 255, 0.692);
+    transition: 0.4s;
+    transform: scale(1.04);
+  }
+
+}
+
+
+/* =======================================================================================================================
+=============================================    Login    ============================================================
+========================================================================================================================== */
+
+.login form{
+  margin:0% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.login input{
+  border-bottom: 1px solid rgba(240, 217, 16, 0.89);
+  width: 50%;
+  margin: 5%;
+  text-align: center;
+  font-size: larger;
+ 
+}
+.login .submitBtn{
+  width: 50%;
+ margin-left: 26%;
+
+}
+.login{
+  background: linear-gradient(110deg, #ffffffe5 50%, #ebdb4b 50%);
+  height: 100%;
+  padding-top: 7%;
+}
+@media only screen and (max-width: 900px) {
+  .login form{
+    margin:0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+  }
+ 
+  
+}
+
+/* =======================================================================================================================
+=============================================   Contact   ================================================================
+========================================================================================================================== */
+
+.contactheading{
+  font-weight: 700;
+  margin: 1%;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: linear-gradient(40deg, #ffffffe5 50%, #ebdb4b 50%);
+}
+.contactData{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contactInfo{
+  background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.842);
+  padding: 2% ;
+  width: 300px;
+  margin: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.829);
+  font-weight: 600;
+  border-radius: 10px;
+  font-size:large;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.messageData{
+  
+  margin: 4% 26%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: rgb(189, 189, 189);
+padding-bottom: 1%;
+
+}
+.comment input{
+  border-radius: 10px;
+  padding: 1%;
+  margin: 2%;
+  font-size: large;
+  background-color: rgba(36, 36, 39, 0.993);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+.commentbox{
+  border-radius: 10px;
+  width: 93%;
+  height:400px;
+  background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.904);
+  font-weight: 500;
+  font-size: larger;
+}
+.submit{
+  background-color: rgba(36, 36, 39, 0.993);
+  color: rgba(255, 255, 255, 0.842);
+}
+.submit:hover{
+  background-color: rgb(14, 14, 14);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:500px){
+  .messageData{
+  
+    margin: 4% 10%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(189, 189, 189);
+  padding-bottom: 1%;
+  
+  }
+  .inp{
+    width: 90%;
+  }
+  
+}
+/* =======================================================================================================================
+=============================================     Home     ============================================================
+========================================================================================================================== */
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(110deg, #ffffffe5 60%, #ebdb4b 60%);
+}
+
+
+
+
+/* =======================================================================================================================
+=============================================     About     ============================================================
+========================================================================================================================== */
+
+
+.info{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 39, 0.993);
+  padding: 3%;
+  height:50%;
+  width: 50%;
+  color: rgba(255, 255, 255, 0.89);
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+}
+ul{
+  list-style: none;
+}
+
+@media screen and (max-width:950px)
+{
+  
+.info{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 39, 0.993);
+  padding: 3%;
+  height:50%;
+  width: 90%;
+  color: rgba(255, 255, 255, 0.89);
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+}
+}
+@media screen and (max-width:500px)
+{
+  
+.info{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 39, 0.993);
+  padding: 3%;
+  height:40%;
+  width: 90%;
+  color: rgba(255, 255, 255, 0.89);
+  display: flex;
+  justify-content: space-around;
+  font-size: 23px;
+}
+}
+@media screen and (max-width:400px)
+{
+  
+.info{
+  border: 1px solid black;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 39, 0.993);
+  padding: 3%;
+  height:26%;
+  width: 90%;
+  color: rgba(255, 255, 255, 0.89);
+  display: flex;
+  justify-content: space-around;
+  font-size: 14.5px;
+}
+}
+
